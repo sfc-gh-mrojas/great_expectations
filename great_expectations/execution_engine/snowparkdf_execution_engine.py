@@ -55,10 +55,10 @@ from great_expectations.execution_engine.execution_engine import (
     SplitDomainKwargs,  # noqa: TCH001
 )
 from great_expectations.execution_engine.Snowparkdf_batch_data import SnowparkDFBatchData
-from great_expectations.execution_engine.split_and_sample.Snowparkdf_data_sampler import (
+from great_expectations.execution_engine.split_and_sample.snowparkdf_data_sampler import (
     SnowparkDataSampler,
 )
-from great_expectations.execution_engine.split_and_sample.Snowparkdf_data_splitter import (
+from great_expectations.execution_engine.split_and_sample.snowparkdf_data_splitter import (
     SnowparkDataSplitter,
 )
 from great_expectations.expectations.row_conditions import (
